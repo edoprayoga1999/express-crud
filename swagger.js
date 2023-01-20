@@ -8,7 +8,7 @@ const doc = {
   },
   host: process.env.API_URL,      // by default: 'localhost:3000'
   basePath: '/',  // by default: '/'
-  schemes: ['http', 'https'],   // by default: ['http']
+  schemes: ['https'],   // by default: ['http']
   consumes: ['application/json'],  // by default: ['application/json']
   produces: ['application/json'],  // by default: ['application/json']
   tags: [[        // by default: empty Array
